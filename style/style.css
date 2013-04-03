@@ -44,4 +44,15 @@ body {
 
 .product_link {
   color: #FFF;
+  background-color: #555;
+  width: 100px;
+  height: 60px;
+  padding: 12px 0px 12px 0px;
+  text-align: center;
+  background-color: #red;
+}
+
+.footer a{
+  color: #999;
+  text-decoration: none;
 }
