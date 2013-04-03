@@ -5,6 +5,14 @@ var productLinkClick = function () {
   });
 }
 
+loadSlider = function () {
+  $('#slider').nivoSlider({
+    directionNav: false,
+    controlNav: false
+  });
+}
+
 $(document).ready(function () {
   productLinkClick();
+  loadSlider();
 });
