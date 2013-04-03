@@ -7,8 +7,11 @@
   padding: 0;
 }
 
+h1 {
+  font-size: 80px;
+}
 body {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: raleway, arial, sans-serif;
   background-color: #ddd;
   height: 100%;
   width: 100%;
@@ -52,8 +55,32 @@ body {
   margin: 12px 12px 12px 12px;
   padding-top: 20px;
   text-align: center;
-  background-color: #red;
   font-size: 22px;
+}
+
+.content {
+  width: 80%;
+  height: 60%;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.description {
+  border: 0px solid #000;
+  background-color: #f2f2f2;
+  -webkit-box-shadow: 0 0 15px 2px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px 2px rgba(0,0,0,0.2);
+  padding-left: 30px;
+  margin-top:20px;
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+
+.section {
+  float: right;
+  margin-right: 50px;
+  margin-top: -25px;
 }
 
 .footer a{

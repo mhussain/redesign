@@ -6,6 +6,5 @@ var productLinkClick = function () {
 }
 
 $(document).ready(function () {
-  console.log("I am aready");
   productLinkClick();
 });
