@@ -75,6 +75,7 @@ body {
   float: left;
   width: 50%;
   height: 50%;
+  min-height: 209px;
 }
 
 .section {
