@@ -12,7 +12,13 @@ loadSlider = function () {
   });
 }
 
+
+addCopyRightDate = function () {
+  $('.footer span').text((new Date()).getFullYear());
+}
+
 $(document).ready(function () {
+  addCopyRightDate();
   productLinkClick();
   loadSlider();
 });
